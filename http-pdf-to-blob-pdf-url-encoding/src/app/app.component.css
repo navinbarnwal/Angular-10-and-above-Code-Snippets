@@ -1,0 +1,9 @@
+input{
+  width: 500px;
+}
+.container{
+  text-align: center;
+}
+button{
+  margin: 32px;
+}

@@ -1,0 +1,16 @@
+<div class="container">
+  <h1>Angular 10+ Snippet Code - 01</h1>
+  <h4> ("Http pdf url to blob url encoding -- No third Party Used")</h4>
+  <p>This small program will take an http pdf file url as input and produce it as a normal BLOB file.</p>
+  <p>This trick is usually used to hide the backend url from clients and end users.</p>
+  <p>For Masking the http Address. Making sure that the file belongs to the authority hosting the project.</p>
+
+  <input type="text"  placeholder="Paste a pdf url here" [(ngModel)]="url">
+  <br>
+  <button (click)="justdownload(url)">Just download</button><br>
+  <button (click)="openinnewwindow(url)">Open in new tab</button><br>
+  <button (click)="downloadResume(url)">Open in custom window</button><br>
+  <button (click)="downloadandprint(url)">Open in new window and print</button>
+  <p>Try Following url if you're url has some CORS issues.</p>
+  <a href="https://raw.githubusercontent.com/navinbarnwal/Angular-10-and-above-Code-Snippets/master/src/assets/Fragments2.pdf">https://raw.githubusercontent.com/navinbarnwal/Angular-10-and-above-Code-Snippets/master/src/assets/Fragments2.pdf</a>
+</div>
